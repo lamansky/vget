@@ -1,0 +1,50 @@
+{
+  "name": "vget",
+  "version": "1.0.0",
+  "description": "Gets a value from a collection that strictly or loosely equals another value.",
+  "keywords": [
+    "get",
+    "value",
+    "loose",
+    "equals",
+    "collection",
+    "array",
+    "iterator",
+    "map",
+    "object",
+    "set",
+    "string",
+    "typed array",
+    "WeakSet"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/vget",
+  "repository": "lamansky/vget",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "dependencies": {
+    "equals": "^1.0.5",
+    "is-instance-of": "^1.0.1",
+    "iterify": "^1.0.0",
+    "otherwise": "^1.0.0",
+    "values-iterator": "^1.2.0",
+    "xfn": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
